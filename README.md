@@ -1,5 +1,6 @@
 # Ping Logger
 Simple Minecraft mod that logs incoming client MOTD ping requests and saves them in *logs.jsonl*.
+Only for Minecraft 1.21.1.
 
 ## Example
 ```json
