@@ -1,0 +1,14 @@
+{
+	"required": true,
+	"package": "com.spichka.pinglogger.mixin",
+	"compatibilityLevel": "JAVA_21",
+	"mixins": [
+		"ServerQueryHandlerMixin"
+	],
+	"injectors": {
+		"defaultRequire": 1
+	},
+	"overwrites": {
+		"requireAnnotations": true
+	}
+}

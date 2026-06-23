@@ -1,0 +1,34 @@
+{
+	"schemaVersion": 1,
+	"id": "pinglogger",
+	"version": "${version}",
+	"name": "Ping Logger",
+	"description": "Logs all ping requests",
+	"authors": [
+		"Spichka"
+	],
+	"contact": {
+		"homepage": "https://fabricmc.net/",
+		"sources": "https://github.com/FabricMC/fabric-example-mod"
+	},
+	"license": "CC0-1.0",
+	"icon": "assets/pinglogger/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"com.spichka.pinglogger.PingLogger"
+		],
+		"fabric-datagen": [
+			"com.spichka.pinglogger.PingLoggerDataGenerator"
+		]
+	},
+	"mixins": [
+		"pinglogger.mixins.json"
+	],
+	"depends": {
+		"fabricloader": ">=0.19.3",
+		"minecraft": "~1.21.1",
+		"java": ">=21",
+		"fabric-api": "*"
+	}
+}
