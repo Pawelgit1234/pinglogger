@@ -1,9 +1,9 @@
 # Ping Logger
+Simple Minecraft mod that logs incoming client MOTD ping requests and saves them in *logs.jsonl*.
 
-## Setup
-
-For setup instructions, please see the [Fabric Documentation page](https://docs.fabricmc.net/develop/getting-started/creating-a-project#setting-up) related to the IDE that you are using.
-
-## License
-
-This template is available under the CC0 license. Feel free to learn from it and incorporate it in your own projects.
+## Example
+```json
+{"timestamp":"2026-06-22T20:03:21.629165800Z","ip":"/127.0.0.1:51025"}
+{"timestamp":"2026-06-22T20:03:27.059395200Z","ip":"/127.0.0.1:51044"}
+{"timestamp":"2026-06-22T20:03:57.424389500Z","ip":"/127.0.0.1:59645"}
+```

@@ -17,10 +17,7 @@ public class PingLogger implements ModInitializer {
     public static final String MOD_ID = "pinglogger";
     public static final Logger LOGGER = LoggerFactory.getLogger(MOD_ID);
 
-    // MUST be public for mixin access
     public static BufferedWriter writer;
-
-    // ADD THIS (you forgot it)
     public static final ExecutorService executor =
             Executors.newSingleThreadExecutor();
 
